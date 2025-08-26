@@ -1,0 +1,13 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+#tooltip::after {
+  content: "";
+  position: absolute;
+  bottom: -6px;
+  left: 10px;
+  border-width: 6px;
+  border-style: solid;
+  border-color: white transparent transparent transparent;
+}
